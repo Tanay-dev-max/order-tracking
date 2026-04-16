@@ -1,9 +1,9 @@
-package src.main.java.com.example.order;
+package com.example.order;
 
 public class Order {
-    private final String orderId;
-    private final String customerName;
-    private final String item;
+    private String orderId;
+    private String customerName;
+    private String item;
     private String status;
 
     public Order(String orderId, String customerName, String item) {

@@ -1,7 +1,4 @@
-package src.test.java.com.example.order;
-
-import src.main.java.com.example.order.Order;
-import src.main.java.com.example.order.OrderService;
+package com.example.order;
 
 public class OrderServiceTestRunner {
     public static void main(String[] args) {

@@ -1,11 +1,10 @@
-package src.main.java.com.example.order;
-
+package com.example.order;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class OrderService {
-    private final Map<String, Order> orders = new HashMap<>();
+    private Map<String, Order> orders = new HashMap<>();
 
     public Order placeOrder(String orderId, String customerName, String item) {
         if (item == null || item.isEmpty()) {
